@@ -36,7 +36,7 @@ class CityDataAdapter(val cities: ArrayList<City>) : Adapter<CityDataAdapter.Cit
     this.cityDataListener = cityDataListener
   }
 
-  inner class CityViewHolder(itemView: View) : ViewHolder(itemView) {
+  class CityViewHolder(itemView: View) : ViewHolder(itemView) {
     private var binding: CityItemBinding
 
     init {
